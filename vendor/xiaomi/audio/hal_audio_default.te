@@ -27,3 +27,5 @@ allow hal_audio_default self:capability2 block_suspend;
 
 # Allow hal_audio_default to read and write to vendor_diag_device
 allow hal_audio_default vendor_diag_device:chr_file rw_file_perms;
+
+allow hal_audio_default socket_device:sock_file { write };
