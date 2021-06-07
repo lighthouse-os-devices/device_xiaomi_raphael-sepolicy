@@ -1,1 +1,10 @@
 type vendor_sysfs_fod, sysfs_type, fs_type;
+type hal_lineage_fod_default, domain;
+type hal_lineage_fod_hwservice, hwservice_manager_type;
+type hal_lineage_livedisplay_qti_exec, exec_type, vendor_file_type, file_type;
+type hal_lineage_fod_default_exec, exec_type, vendor_file_type, file_type;
+type exported_radio_prop, property_type;
+type exported2_default_prop, property_type;
+type exported2_radio_prop, property_type;
+type exported3_default_prop, property_type;
+type exported3_radio_prop, property_type;
